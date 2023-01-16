@@ -6,7 +6,7 @@ html{
   --bs-roxo: #925af8;
   --bs-light-purple:#b79aff;
   --custom-red:#821515;
-  --custom-light-gray:#f9ef80;
+  --custom-light-yellow:#f9ef80;
   --custom-medium-red:#C92A2A;
 }
 body{
@@ -22,8 +22,8 @@ body{
 .bg-custom-medium-red{
   background-color: var(--custom-medium-red);
 }
-.bg-custom-light-gray{
-  background-color: var(--custom-light-gray);
+.bg-custom-light-yellow{
+  background-color: var(--custom-light-yellow);
 }
 .bg-custom-red{
   background-color: var(--custom-red);
@@ -61,3 +61,17 @@ body{
 #galeria img{
   border-radius: 0.5rem;
 }
+
+.text-shadow{ 
+  background: rgba(33, 33, 33, 0.4);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+}
+.hero-bg{
+  background-image: url(./assets/imagem9.jpg);
+  width: 100%;
+  height: 92vh;
+  background-size: cover;
+}
+
