@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+:root {
+  --bs-roxo: #925af8;
+  --bs-light-purple:#b79aff;
+  --custom-red:#821515;
+  --custom-light-gray:#f9ef80;
+  --custom-medium-red:#C92A2A;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.shadow{
+  box-shadow: rgb(0 0 0 / 8%) 0 1px;
+}
+/*!!!!!!!!!!!!!!!!! COLORS !!!!!!!!!!!!!!!!!!!*/
+.btn-custom-red{
+  background-color: var(--custom-red);
+}
+.bg-custom-medium-red{
+  background-color: var(--custom-medium-red);
+}
+.bg-custom-light-gray{
+  background-color: var(--custom-light-gray);
+}
+.bg-custom-red{
+  background-color: var(--custom-red);
+}
+.bg-purple {
+  background-color: var(--bs-purple);
+}
+.bg-light-purple{
+  background-color:var(--bs-light-purple) ;
+}
+.bg-roxo {
+  background-color: var(--bs-roxo);
+}
+
+/*!!!!!!!!!!!!!!!!!!!! NAVBAR !!!!!!!!!!!!!!!!!!!!!!!!!*/
+.nav-link:hover {
+  color: #f8f8f8 !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254, 254, 254, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+   border:  1px solid #f2f2f2;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!! MARGIN AND PADDING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.my-6{
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important;
+}
+#galeria img:hover{
+  scale: 1.1;
+  transition: scale 200ms;
+}
+#galeria img{
+  border-radius: 0.5rem;
+}
